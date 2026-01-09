@@ -677,3 +677,32 @@ h1 {
     background: none;
     border: none;
 }
+/* Background Video Styles */
+.background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    /* Smooth transitions */
+    transition: opacity 0.3s ease-in-out;
+}
+
+/* Ensure video doesn't interfere with content */
+.background-video::-webkit-media-controls {
+    display: none !important;
+}
+
+.background-video::-webkit-media-controls-panel {
+    display: none !important;
+}
+
+.background-video::-webkit-media-controls-play-button {
+    display: none !important;
+}
+
+.background-video::-webkit-media-controls-start-playback-button {
+    display: none !important;
+}

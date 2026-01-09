@@ -28,9 +28,9 @@ function About() {
       variants={staggerContainer}
     >
       {/* Heading */}
-      <motion.h1 className="font-crossFly text-4xl" variants={fadeInUp}>
+      <motion.h1 className="font-black text-6xl uppercase tracking-wider bg-gradient-to-r from-cyan-300 via-blue-200 to-indigo-300 bg-clip-text text-transparent drop-shadow-[0_0_30px_rgba(140,204,255,0.9)] filter brightness-150" variants={fadeInUp}>
         About{' '}
-        <span className="text-4xl italic text-rose-500 font-crossFly glow-text mb-8">Us</span>
+        <span className="text-6xl italic font-serif bg-gradient-to-r from-rose-300 via-pink-400 to-fuchsia-400 bg-clip-text text-transparent drop-shadow-[0_0_25px_rgba(244,63,94,0.9)] mb-8">Us</span>
       </motion.h1>
 
       {/* Glowing Underline */}
@@ -76,8 +76,8 @@ function About() {
       whileHover={{ scale: 1.05 }}
       variants={fadeInUp}
     >
-      <h2 className="grid-box-heading">{box.title}</h2>
-      <p className="font-serif text-1xl">{box.description}</p>
+      <h2 className="font-bold text-2xl uppercase tracking-wide bg-gradient-to-r from-cyan-300 via-blue-200 to-indigo-300 bg-clip-text text-transparent drop-shadow-[0_0_20px_rgba(140,204,255,0.8)] filter brightness-125">{box.title}</h2>
+      <p className="font-light text-lg leading-relaxed bg-gradient-to-r from-slate-200 via-blue-100 to-cyan-200 bg-clip-text text-transparent drop-shadow-[0_0_12px_rgba(140,204,255,0.6)]">{box.description}</p>
     </motion.div>
   ))}
 </motion.div>

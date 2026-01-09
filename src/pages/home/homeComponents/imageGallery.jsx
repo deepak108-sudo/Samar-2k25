@@ -163,11 +163,11 @@ function ImageSection() {
 				<div className="overflow-hidden relative">
 					<h2 className="mb-7 pb-4 text-2xl font-bold text-white capitalize flex justify-center items-center">
 						<div className="relative">
-							<span className="text-amber-500 font-crossFly uppercase text-4xl tracking-widerwider drop-shadow-[3px_3px_0px_#000]">
+							<span className="bg-gradient-to-r from-cyan-300 via-blue-200 to-indigo-300 bg-clip-text text-transparent font-black uppercase text-6xl tracking-[0.2em] drop-shadow-[0_0_30px_rgba(140,204,255,0.9)] filter brightness-150">
 								Image Gallery
 							</span>
-							<span className="absolute bottom-[-16px] left-0 w-full h-1 bg-gray-100 rounded-xl"></span>
-							<span className="absolute bottom-[-16px] left-0 w-8 h-1 bg-amber-500 rounded-xl"></span>
+							<span className="absolute bottom-[-20px] left-0 w-full h-2 bg-gradient-to-r from-cyan-400 via-blue-300 to-indigo-400 rounded-xl drop-shadow-[0_0_15px_rgba(140,204,255,0.8)]"></span>
+							<span className="absolute bottom-[-20px] left-0 w-12 h-2 bg-gradient-to-r from-cyan-500 to-blue-400 rounded-xl drop-shadow-[0_0_20px_rgba(140,204,255,1)]"></span>
 						</div>
 					</h2>
 
@@ -179,11 +179,11 @@ function ImageSection() {
 
 									<div className="absolute top-0 left-0 right-0 bottom-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition-all ease-in-out"></div>
 									<div className={`absolute bottom-0 left-0 right-0 p-6 text-white transition-transform duration-500 ease-in-out ${ index === activeIndex ? "translate-y-0" : "translate-y-[calc(100%-80px)]" }`} >
-										<h3 className="text-xl font-bold mb-2 uppercase font-crossFly italic">
+										<h3 className="text-xl font-bold mb-2 uppercase font-crossFly italic bg-gradient-to-r from-blue-300 to-white bg-clip-text text-transparent drop-shadow-[0_0_15px_rgba(140,204,255,0.8)]">
 											{game.title}
 										</h3>
 
-										<p className={`text-gray-300 transition-opacity duration-500 font-brave81 lowercase tracking-wider ${ index === activeIndex ? "opacity-100" : "opacity-0" }`} >
+										<p className={`bg-gradient-to-r from-blue-200 to-white bg-clip-text text-transparent transition-opacity duration-500 font-brave81 lowercase tracking-wider drop-shadow-[0_0_10px_rgba(140,204,255,0.6)] ${ index === activeIndex ? "opacity-100" : "opacity-0" }`} >
 											{game.description}
 										</p>
 									</div>

@@ -14,7 +14,7 @@ const Timeline = () => {
 
         <div className='main'>
 
-            <h1 className="font-crossFly text-4xl"> Our <span className="text-4xl italic text-rose-500 font-crossFly  glow-text mb-8 "> Journey </span> </h1>
+            <h1 className="font-black text-6xl uppercase tracking-wider bg-gradient-to-r from-cyan-300 via-blue-200 to-indigo-300 bg-clip-text text-transparent drop-shadow-[0_0_30px_rgba(140,204,255,0.9)] filter brightness-150"> Our <span className="text-6xl italic font-serif bg-gradient-to-r from-rose-300 via-pink-400 to-fuchsia-400 bg-clip-text text-transparent drop-shadow-[0_0_25px_rgba(244,63,94,0.9)] mb-8 "> Journey </span> </h1>
 
                 {/* Glowing Underline */}
        <div className="underline-glow"></div>
@@ -30,11 +30,11 @@ const Timeline = () => {
 
                     <div className='text-box htmlcard'>
 
-                        <h2 className='htmltext font-knightWarrior text-3xl pt-4 pb-4'> The Beginning </h2>
+                        <h2 className='htmltext font-knightWarrior text-3xl pt-4 pb-4 bg-gradient-to-r from-blue-300 via-white to-blue-400 bg-clip-text text-transparent drop-shadow-[0_0_20px_rgba(140,204,255,0.8)] filter brightness-125'> The Beginning </h2>
 
-                        <span className='company font-crossFly text-1xl text-white pb-4'>2010</span>
+                        <span className='company font-crossFly text-xl bg-gradient-to-r from-blue-200 to-white bg-clip-text text-transparent drop-shadow-[0_0_15px_rgba(140,204,255,0.7)] pb-4'>2010</span>
 
-                        <p className='pt-4 font-serif text-white glow-text text-1xl pb-4'>
+                        <p className='pt-4 font-serif bg-gradient-to-r from-blue-100 via-white to-blue-200 bg-clip-text text-transparent drop-shadow-[0_0_10px_rgba(140,204,255,0.6)] text-lg pb-4 leading-relaxed'>
                         Shaurya has been at the helm of conducting all
                         the sports activities in the institute. The
                         committee organizes events Samar (the annual
@@ -60,11 +60,11 @@ const Timeline = () => {
 
                     <div className='text-box javascriptcard'>
 
-                        <h2 className='javascripttext font-knightWarrior text-3xl pb-4 pt-4'> Samar </h2>
+                        <h2 className='javascripttext font-knightWarrior text-3xl pb-4 pt-4 bg-gradient-to-r from-blue-300 via-white to-blue-400 bg-clip-text text-transparent drop-shadow-[0_0_20px_rgba(140,204,255,0.8)] filter brightness-125'> Samar </h2>
 
-                        <span className='company font-crossFly text-1xl text-white pb-4'>2010</span>
+                        <span className='company font-crossFly text-xl bg-gradient-to-r from-blue-200 to-white bg-clip-text text-transparent drop-shadow-[0_0_15px_rgba(140,204,255,0.7)] pb-4'>2010</span>
 
-                        <p className='pt-4  pb-4 font-serif text-white glow-text text-1xl'>
+                        <p className='pt-4 pb-4 font-serif bg-gradient-to-r from-blue-100 via-white to-blue-200 bg-clip-text text-transparent drop-shadow-[0_0_10px_rgba(140,204,255,0.6)] text-lg leading-relaxed'>
                         SAMAR is the Annual College Sports Festival
                         of NIT Raipur. It is a four-day mega event
                         held in the during winter in which provides
@@ -89,11 +89,11 @@ const Timeline = () => {
 
                     <div className='text-box reactjscard'>
 
-                        <h2 className='reactjstext font-knightWarrior text-2xl pb-4 pt-4'>Achievements</h2>
+                        <h2 className='reactjstext font-knightWarrior text-3xl pb-4 pt-4 bg-gradient-to-r from-blue-300 via-white to-blue-400 bg-clip-text text-transparent drop-shadow-[0_0_20px_rgba(140,204,255,0.8)] filter brightness-125'>Achievements</h2>
 
-                        <span className='company font-crossFly text-1xl text-white pb-4'>2024</span>
+                        <span className='company font-crossFly text-xl bg-gradient-to-r from-blue-200 to-white bg-clip-text text-transparent drop-shadow-[0_0_15px_rgba(140,204,255,0.7)] pb-4'>2024</span>
 
-                        <p className='pt-4 pb-4  text-white text-1xl font-serif glow-text'>
+                        <p className='pt-4 pb-4 bg-gradient-to-r from-blue-100 via-white to-blue-200 bg-clip-text text-transparent text-lg font-serif drop-shadow-[0_0_10px_rgba(140,204,255,0.6)] leading-relaxed'>
 
                         This year has been nothing short of extraordinary for our sports
                         teams, showcasing outstanding talent and unwavering dedication.
@@ -117,11 +117,11 @@ const Timeline = () => {
 
                     <div className='text-box nodejscard'>
 
-                        <h2 className='nodejstext font-knightWarrior text-3xl pb-4 pt-4'> Coming Soon </h2>
+                        <h2 className='nodejstext font-knightWarrior text-3xl pb-4 pt-4 bg-gradient-to-r from-blue-300 via-white to-blue-400 bg-clip-text text-transparent drop-shadow-[0_0_20px_rgba(140,204,255,0.8)] filter brightness-125'> Coming Soon </h2>
 
-                         <span className='company font-crossFly text-1xl text-white pb-4'> 2025 </span>
+                         <span className='company font-crossFly text-xl bg-gradient-to-r from-blue-200 to-white bg-clip-text text-transparent drop-shadow-[0_0_15px_rgba(140,204,255,0.7)] pb-4'> 2025 </span>
 
-                        <p className='pt-4 pb-4 text-white text-1xl font-serif glow-text'>
+                        <p className='pt-4 pb-4 bg-gradient-to-r from-blue-100 via-white to-blue-200 bg-clip-text text-transparent text-lg font-serif drop-shadow-[0_0_10px_rgba(140,204,255,0.6)] leading-relaxed'>
 
                         SAMAR will be back with its new edition with gamify range of exciting sports events. Stay tuned with us through our social media handles to make sure you don't miss out on the next big sports revolution!
 

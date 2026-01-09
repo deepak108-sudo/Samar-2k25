@@ -14,7 +14,7 @@ import '../homeComponents/sponsors.css';
 function Sponsors() {
   return (
     <div className="Sponsors">
-        <h1 className="font-crossFly text-4xl"> Our <span className="text-4xl italic text-rose-500 font-crossFly  glow-text mb-8 "> Past Sponsors </span> </h1>
+        <h1 className="font-black text-6xl uppercase tracking-wider bg-gradient-to-r from-cyan-300 via-blue-200 to-indigo-300 bg-clip-text text-transparent drop-shadow-[0_0_30px_rgba(140,204,255,0.9)] filter brightness-150"> Our <span className="text-6xl italic font-serif bg-gradient-to-r from-rose-300 via-pink-400 to-fuchsia-400 bg-clip-text text-transparent drop-shadow-[0_0_25px_rgba(244,63,94,0.9)] mb-8 "> Past Sponsors </span> </h1>
 
            {/* Glowing Underline */}
        <div className="underline-glow"></div>
